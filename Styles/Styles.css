@@ -2,21 +2,26 @@
     padding:0;
     margin:0;
 }
+body {
+    font-family:'Roboto Condensed', sans-serif;
+}
 nav {
-    margin:50px;
+    margin:0px;
     display:flex;
     justify-content:center;
+    border-bottom: 10px solid #333;
 }
 ul {
     overflow:auto;
     list-style-type:none;
 }
 li {
-    height:60px;
+    height:75px;
     float:left;
     text-align:center;
     margin-right:0px;
-    border:1px solid #333;
+    border-left:1px solid #333;
+    border-right:1px solid #333;
     padding:0 20px;
 }
 li a {
@@ -24,7 +29,7 @@ li a {
     color:#ccc;
     font: 20px, Helvetica, Verdana, sans-serif;
     text-transform:uppercase;
-    font-size:300%;
+    font-size:350%;
 
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -45,6 +50,5 @@ header {
     font-size:300%
 }
 h1{
-    font-family:'Roboto Condensed', sans-serif;
     border-bottom:5px solid #333;
 }
