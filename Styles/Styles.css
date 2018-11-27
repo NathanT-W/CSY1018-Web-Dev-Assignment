@@ -19,7 +19,7 @@ li {
 li a {
     text-decoration:none;
     color:#ccc;
-    font: 25px, Helvetica, Verdana, sans-serif;
+    font: 20px, Helvetica, Verdana, sans-serif;
     text-transform:uppercase;
 
     -webkit-transition: all 0.5s ease;
@@ -34,4 +34,9 @@ li a:hover{
 li.active a{
     font-weight:bold;
     color:#333
+}
+h1 {
+    padding:10px;
+    margin:5px;
+    display:inline-flex;
 }
