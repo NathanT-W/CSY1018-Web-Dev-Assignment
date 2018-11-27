@@ -4,14 +4,17 @@
 }
 nav {
     margin:50px;
+    display:flex;
+    justify-content:center;
 }
 ul {
     overflow:auto;
     list-style-type:none;
 }
 li {
-    height:35px;
+    height:60px;
     float:left;
+    text-align:center;
     margin-right:0px;
     border:1px solid #333;
     padding:0 20px;
@@ -21,6 +24,7 @@ li a {
     color:#ccc;
     font: 20px, Helvetica, Verdana, sans-serif;
     text-transform:uppercase;
+    font-size:300%;
 
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -35,9 +39,12 @@ li.active a{
     font-weight:bold;
     color:#333
 }
-h1 {
-    padding:10px;
-    margin:5px;
-    display:inline-flex;
+header {
     text-align:center;
+    font-weight:bold;
+    font-size:300%
+}
+h1{
+    font-family:'Roboto Condensed', sans-serif;
+    border-bottom:5px solid #333;
 }
