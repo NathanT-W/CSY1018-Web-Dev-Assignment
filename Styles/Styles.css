@@ -83,6 +83,20 @@ h2{
 h2:hover{
     color:#666;
 }
+.rows{
+    display:flex;
+    flex-direction:column;
+}
+.row{
+    font-family:Arial, Helvetica, sans-serif;
+    border-right:5px solid #333;
+    flex-direction:row;
+    padding-left:15px;
+    flex:1 0 auto;
+    flex-wrap:wrap;
+    padding-right:15px;
+    border-bottom:5px solid #333;
+}
 
 
 
