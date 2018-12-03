@@ -52,6 +52,10 @@ header {
 h1{
     border-bottom:5px solid #333;
 }
+h2{
+    display:flex;
+    justify-content:column;
+}
 
 
 
