@@ -56,6 +56,12 @@ h2{
     display:flex;
     justify-content:column;
 }
+p{
+    display:flex;
+    justify-content:column;
+    width:250px;
+}
+
 
 
 
