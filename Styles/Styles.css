@@ -112,5 +112,9 @@ footer p{
         height:50px;
     }
 }
+@media (max-width:415px){
+    img{
 
+    }
+}
 
