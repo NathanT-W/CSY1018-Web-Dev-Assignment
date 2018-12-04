@@ -74,7 +74,7 @@ h2{
 }
 .column image{
     display:flex;
-    align-content:space-between;
+    align-self:center;
 }
 h2:hover{
     color:#666;
@@ -92,6 +92,15 @@ h2:hover{
     flex-wrap:wrap;
     padding-right:15px;
     border-bottom:5px solid #333;
+}
+footer{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:5px solid #333
+}
+footer p{
+    text-transform:uppercase;
+    font-weight:bold;
 }
 
 
