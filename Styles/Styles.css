@@ -72,9 +72,8 @@ h2{
     padding-right:15px;
     border-bottom:5px solid #333;
 }
-.column image{
-    display:flex;
-    align-self:center;
+.column img{
+    padding-left:50px;
 }
 h2:hover{
     color:#666;
@@ -102,7 +101,16 @@ footer p{
     text-transform:uppercase;
     font-weight:bold;
 }
-
-
+@media (max-width:1180px){
+    h1{
+        font-size:75%;
+    }
+    nav{
+        font-size:70%;
+    }
+    li {
+        height:50px;
+    }
+}
 
 
